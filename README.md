@@ -1,7 +1,5 @@
 # Metro
 
-![Banner](./static/opengraph-image.png)
-
 ## Local Setup
 
 ```bash
