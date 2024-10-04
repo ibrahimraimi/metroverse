@@ -1,7 +1,7 @@
 export const siteConfig = {
 	name: "Metro's Space",
-	url: "https://metroboom.xyz",
-	ogImage: "https://metroboom.xyz/opengraph-image.png",
+	url: "https://metro.six-shot.xyz",
+	ogImage: "https://metro.six-shot.xyz/opengraph-image.png",
 	description: "A internet space for Metro focused on creating interactive digital experiences on the web.",
 	links: {
 		twitter: "https://twitter.com/metro_0x",

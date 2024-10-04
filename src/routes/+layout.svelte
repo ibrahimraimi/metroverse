@@ -1,14 +1,12 @@
 <script>
-	import { SiteHeader } from "$lib/components";
-	import Metadata from "$lib/components/metadata.svelte";
 	import "../app.pcss";
+
+	import { Metadata, Noise, SiteHeader } from "$lib/components";
 </script>
 
 <Metadata />
-
-<main
-	class="mx-4 mt-4 flex max-w-2xl flex-1 flex-col antialiased md:flex-row lg:mx-auto lg:flex-col"
->
+<Noise />
+<main class="mx-4 flex max-w-2xl flex-1 flex-col antialiased md:flex-row lg:mx-auto lg:flex-col">
 	<SiteHeader />
 	<slot />
 </main>
